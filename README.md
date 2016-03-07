@@ -84,7 +84,7 @@ Ideally we'll find expert editors for each of the MSC classes.
 
 # Details
 
-## Quickly the repositories from the command line
+## Quickly create the repositories from the command line
 
 ```
 curl -u 'TOKEN' https://api.github.com/user/repos -d '{"name":"REPO"}'
@@ -96,4 +96,4 @@ followed by
 git push --mirror https://github.com/holtzermann17/00_General.git
 ```
 
-Then transfer (by hand)
+Then transfer (by hand :boom:)
