@@ -86,7 +86,7 @@ Ideally we'll find expert editors for each of the MSC classes.
 
 ## Quickly create the repositories from the command line
 
-[//]: # Carried out March 7th and 8th, 2016 -jac
+[//]: # (Carried out March 7th and 8th, 2016 -jac)
 
 ```
 curl -u 'TOKEN' https://api.github.com/user/repos -d '{"name":"REPO"}'
