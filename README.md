@@ -86,14 +86,18 @@ Ideally we'll find expert editors for each of the MSC classes.
 
 ## Quickly create the repositories from the command line
 
+[//]: # Carried out March 7th and 8th, 2016 -jac
+
 ```
 curl -u 'TOKEN' https://api.github.com/user/repos -d '{"name":"REPO"}'
 ```
 
-followed by
+And then, from within a repository with some boilerplate content, for each repo of interest, run a command like this:
 
 ```
-git push --mirror https://github.com/holtzermann17/00_General.git
+git push --mirror https://github.com/holtzermann17/REPO.git
 ```
 
-Then transfer (by hand :boom:)
+Then transfer (by hand :boom:) to the planetmath organization.
+
+Now the repositories are available at places like https://github.com/planetmath/00_General and they can be cloned (and populated).
